@@ -1,5 +1,5 @@
-FROM debian:stretch
-MAINTAINER Viktor Petersson <vpetersson@screenly.io>
+FROM resin/rpi-raspbian:stretch
+MAINTAINER Dirane TAFEN <diranetafen@yahoo.com> 
 
 RUN apt-get update && \
     apt-get -y install \
